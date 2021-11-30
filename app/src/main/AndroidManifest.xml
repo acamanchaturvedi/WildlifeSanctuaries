@@ -10,9 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WildlifeSanctuaries">
         <activity
-            android:name=".SearchBySanctuaries"
-            android:parentActivityName=".MainActivity"
+            android:name=".SearchByStates"
             android:exported="true" />
+        <activity
+            android:name=".Sanctuary_Information_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Sanctuary_Detail"
+            android:exported="true" />
+        <activity
+            android:name=".SearchBySanctuaries"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

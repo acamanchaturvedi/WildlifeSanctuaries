@@ -2,7 +2,11 @@ package com.example.wildlifesanctuaries;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -271,5 +275,17 @@ public class SearchBySanctuaries extends AppCompatActivity {
 
         ListView listView = findViewById(R.id.sanctuary_listview);
         listView.setAdapter(sanctuaryAdapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                Intent i1 = new Intent(SearchBySanctuaries.this,Sanctuary_Information_Activity.class);
+                Bundle b = new Bundle();
+                Sanctuary name1 = (Sanctuary) adapterView.getItemAtPosition(i);
+                String name=name1.getSanctuaryName();
+
+                i1.putExtra("key",name);
+                startActivity(i1);
+            }
+        });
     }
 }

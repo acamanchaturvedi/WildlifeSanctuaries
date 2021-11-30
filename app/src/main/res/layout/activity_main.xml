@@ -13,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="5dp"
+        android:onClick="funn"
         android:layout_margin="7dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -28,7 +29,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="3"
                 android:layout_height="111dp"
-                android:src="@drawable/pin" />
+                android:src="@drawable/ind" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -76,7 +77,7 @@
                 android:layout_width="0dp"
                 android:layout_height="111dp"
                 android:layout_weight="3"
-                android:src="@drawable/ind" />
+                android:src="@drawable/pin" />
 
             <LinearLayout
                 android:layout_width="0dp"

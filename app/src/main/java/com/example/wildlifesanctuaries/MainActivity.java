@@ -20,4 +20,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void funn(View view) {
+        Intent intent = new Intent(this, SearchByStates.class);
+        startActivity(intent);
+    }
+
 }

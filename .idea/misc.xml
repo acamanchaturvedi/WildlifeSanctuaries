@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25462962962962965" />
+        <entry key="app/src/main/res/layout/activity_sanctuary_detail.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_sanctuary_information.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_search_by_sanctuaries.xml" value="0.27239583333333334" />
+        <entry key="app/src/main/res/layout/activity_search_by_states.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.29739583333333336" />
+        <entry key="app/src/main/res/layout/state_list_item.xml" value="0.29483695652173914" />
       </map>
     </option>
   </component>
