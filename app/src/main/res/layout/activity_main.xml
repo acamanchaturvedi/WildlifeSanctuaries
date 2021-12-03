@@ -1,108 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/search_by_state"
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardCornerRadius="5dp"
-        android:onClick="funn"
-        android:layout_margin="7dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="111dp">
+        android:text="Mapping Wildlife Sanctuaries"
+        android:textSize="54sp"
+        android:layout_marginBottom="78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
 
-        <LinearLayout
+        <androidx.cardview.widget.CardView
+            android:id="@+id/search_by_state"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:weightSum="10">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_weight="3"
-                android:layout_height="111dp"
-                android:src="@drawable/ind" />
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:onClick="funn"
+            android:layout_margin="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="111dp">
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_weight="7"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="7dp"
-                android:orientation="vertical">
+                android:weightSum="10">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:textSize="22sp"
-                    android:layout_marginTop="2dp"
-                    android:layout_height="wrap_content"
-                    android:text="Search By State" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="111dp"
+                    android:src="@drawable/ind" />
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="List all the states and allows to filter by State"
-                    android:textSize="13sp" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="7dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:textSize="22sp"
+                        android:layout_marginTop="8dp"
+                        android:layout_height="wrap_content"
+                        android:text="Search By State" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="List all the states and allows to filter by State"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-    </androidx.cardview.widget.CardView>
-
-    <androidx.cardview.widget.CardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="7dp"
-        android:onClick="fun"
-        app:cardCornerRadius="5dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="28dp">
-
-        <LinearLayout
+        <androidx.cardview.widget.CardView
+            android:id="@+id/search_by_sanctuary"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:weightSum="10">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="111dp"
-                android:layout_weight="3"
-                android:src="@drawable/pin" />
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="fun"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="28dp">
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="7dp"
-                android:layout_weight="7"
-                android:orientation="vertical">
+                android:weightSum="10">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:text="Search By Sanctuary"
-                    android:textSize="22sp" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="111dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/pin" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="13sp"
-                    android:text="List all the sanctuaries and allows to filter by sanctuary name" />
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="7dp"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Search By Sanctuary"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_marginTop="8dp"
+                        android:text="List all the sanctuaries and allows to filter by sanctuary name" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="funnn"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="28dp">
 
-</LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="10">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="111dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/img2221" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="7dp"
+                    android:layout_weight="7"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Search By Map"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:layout_marginTop="8dp"
+                        android:text="Map of India which shows all the sanctuaries" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>
+

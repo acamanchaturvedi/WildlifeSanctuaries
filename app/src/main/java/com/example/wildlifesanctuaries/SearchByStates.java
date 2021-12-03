@@ -38,6 +38,9 @@ public class SearchByStates extends AppCompatActivity {
         states.add(new State("Madhya Pradesh",R.drawable.madhyapradesh));
         states.add(new State("Maharashtra",R.drawable.maharashtra));
         states.add(new State("Manipur",R.drawable.manipur));
+
+        states.add(new State("Meghalaya",R.drawable.meghalaya));
+
         states.add(new State("Mizoram",R.drawable.mizoram));
         states.add(new State("Nagaland",R.drawable.nagaland));
         states.add(new State("Odisha",R.drawable.odisha));
@@ -66,7 +69,7 @@ public class SearchByStates extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
                 TextView textview=findViewById(R.id.state_name);
                 String states_data[]={"Andhra Pradesh","Arunachal Pradesh","Assam","Bihar","Chhattisgarh","Goa","Gujarat","Haryana","Himachal Pradesh"
-                        ,"Jharkhand","Karnataka","Kerala","Madhya Pradesh","Maharashtra","Manipur","Mizoram","Nagaland","Odisha","Punjab",
+                        ,"Jharkhand","Karnataka","Kerala","Madhya Pradesh","Maharashtra","Manipur","Meghalaya","Mizoram","Nagaland","Odisha","Punjab",
                         "Rajasthan","Sikkim","Tamil Nadu","Telangana","Tripura","Uttar Pradesh","Uttarakhand","West Bengal","Andaman And Nicobar Islands",
                         "Chandigarh","Dadra And Nagar Haveli","Delhi","Jammu And Kashmir","Ladakh","Lakshadweep","Puducherry" };
                 String passingdata=states_data[position];

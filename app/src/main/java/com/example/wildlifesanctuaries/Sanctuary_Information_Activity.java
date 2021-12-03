@@ -4,11 +4,12 @@ package com.example.wildlifesanctuaries;
         import android.os.Bundle;
         import android.view.View;
         import android.widget.Button;
-        import android.widget.LinearLayout;
+
         import android.widget.TextView;
         import android.widget.Toast;
 
         import androidx.appcompat.app.AppCompatActivity;
+        import androidx.cardview.widget.CardView;
 
         import java.util.ArrayList;
 
@@ -377,7 +378,7 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
         sanctuary_informations.add(new Sanctuary_Information("Asola Bhatti (Indira Priyadarshini) Wildlife Sanctuary" ,null,"Asola",null, "1992", "27.82 km²","28.4941","77.2675"));
         sanctuary_informations.add(new Sanctuary_Information("Aralam Wildlife Sanctuary",null,null,null,"1984","55 km²","28.4941","77.2675"));
         sanctuary_informations.add(new Sanctuary_Information("Anshi National Park", "Tigers, Indian Bison, Bonnet Macaque, Deer, Mouse Deer, Spotted Deer, Malabar Civet, Malabar Giant Squirrel, Pangolin, Sloth Bear, Black Panther, Elephants, Adjutant Stork, Ashy Woodswallow, Black-crested Bulbul, Blue-headed Pitta, Brahminy Kite, Broad-billed Roller, Crested Serpent Eagle, Great Hornbill, Golden-backed Woodpecker, Malabar Pied Hornbill, Sri Lanka Frogmouth and Yellow-footed Green Pigeon", "Uttara Kannada", "Trekking", "1987", "340 km²","14.9981","74.3587"));
-        sanctuary_informations.add(new Sanctuary_Information("Aner Dam Wildlife Sanctuary" ,"Barking Deer, Chinkaras, Hares, Porcupines, Jungle Cats aman sanctuary_informations.add(new Sanctuary_Information(\"Neora Valley National Park\", \"Clouded Leopard, Red Panda, Musk Deer, Leopard, Civet, Black bear, Sloth bear, Golden cat, Wild boar, Leopard cat, Goral, Serow, Barking deer, Sambar, Himalayan flying squirrel, King cobra, common cobra krait, green pit viper, blind snake, Butterflies, Rufous-throated Partridge, Satyr Tragopan, Crimson-breasted Woodpecker, Darjeeling Woodpecker, Bay Woodpecker, Golden-throated Barbet, Hodgson's Hawk Cuckoo, Lesser Cuckoo, Brown Wood Owl, Ashy Wood Pigeon, Mountain Imperial Pigeon, Jerdon's Baza, Black Eagle, Mountain Hawk Eagle, Dark-throated Thrush, Rufous-gorgeted Flycatcher, White-gorgeted Flycatcher, White-browed Bush Robin, White-tailed Robin, Yellow-browed Tit, Striated Bulbul, Chestnut-headed Tesia, Chestnut-crowned Warbler, Black-faced Warbler, Black-faced Laughingthrush, Chestnut-crowned Laughingthrush, Streak-breasted Scimitar Babbler, Scaly-breasted Wren Babbler, Pygmy Wren Babbler, Rufous-fronted Babbler, Black-headed Shrike Babbler, White-browed Shrike Babbler, Rusty-fronted Barwing, Rufous-winged Fulvetta, Brown Parrotbill, Fire-breasted Flowerpecker, Fire-tailed Sunbird, Maroon-backed Accentor, Dark-breasted Rosefinch, Red-headed Bullfinch and Gold-naped Finch\", \"Kalimpong, Darjeeling District\", \"Bird safari, Jungle safari\", \"1986\", \"88 km²\", \"27.0824\", \"88.7007\"));\nsanctuary_informations.add(new Sanctuary_Information(\"Neora Valley National Park\", \"Clouded Leopard, Red Panda, Musk Deer, Leopard, Civet, Black bear, Sloth bear, Golden cat, Wild boar, Leopard cat, Goral, Serow, Barking deer, Sambar, Himalayan flying squirrel, King cobra, common cobra krait, green pit viper, blind snake, Butterflies, Rufous-throated Partridge, Satyr Tragopan, Crimson-breasted Woodpecker, Darjeeling Woodpecker, Bay Woodpecker, Golden-throated Barbet, Hodgson's Hawk Cuckoo, Lesser Cuckoo, Brown Wood Owl, Ashy Wood Pigeon, Mountain Imperial Pigeon, Jerdon's Baza, Black Eagle, Mountain Hawk Eagle, Dark-throated Thrush, Rufous-gorgeted Flycatcher, White-gorgeted Flycatcher, White-browed Bush Robin, White-tailed Robin, Yellow-browed Tit, Striated Bulbul, Chestnut-headed Tesia, Chestnut-crowned Warbler, Black-faced Warbler, Black-faced Laughingthrush, Chestnut-crowned Laughingthrush, Streak-breasted Scimitar Babbler, Scaly-breasted Wren Babbler, Pygmy Wren Babbler, Rufous-fronted Babbler, Black-headed Shrike Babbler, White-browed Shrike Babbler, Rusty-fronted Barwing, Rufous-winged Fulvetta, Brown Parrotbill, Fire-breasted Flowerpecker, Fire-tailed Sunbird, Maroon-backed Accentor, Dark-breasted Rosefinch, Red-headed Bullfinch and Gold-naped Finch\", \"Kalimpong, Darjeeling District\", \"Bird safari, Jungle safari\", \"1986\", \"88 km²\", \"27.0824\", \"88.7007\"));\nsanctuary_informations.add(new Sanctuary_Information(\"Neora Valley National Park\", \"Clouded Leopard, Red Panda, Musk Deer, Leopard, Civet, Black bear, Sloth bear, Golden cat, Wild boar, Leopard cat, Goral, Serow, Barking deer, Sambar, Himalayan flying squirrel, King cobra, common cobra krait, green pit viper, blind snake, Butterflies, Rufous-throated Partridge, Satyr Tragopan, Crimson-breasted Woodpecker, Darjeeling Woodpecker, Bay Woodpecker, Golden-throated Barbet, Hodgson's Hawk Cuckoo, Lesser Cuckoo, Brown Wood Owl, Ashy Wood Pigeon, Mountain Imperial Pigeon, Jerdon's Baza, Black Eagle, Mountain Hawk Eagle, Dark-throated Thrush, Rufous-gorgeted Flycatcher, White-gorgeted Flycatcher, White-browed Bush Robin, White-tailed Robin, Yellow-browed Tit, Striated Bulbul, Chestnut-headed Tesia, Chestnut-crowned Warbler, Black-faced Warbler, Black-faced Laughingthrush, Chestnut-crowned Laughingthrush, Streak-breasted Scimitar Babbler, Scaly-breasted Wren Babbler, Pygmy Wren Babbler, Rufous-fronted Babbler, Black-headed Shrike Babbler, White-browed Shrike Babbler, Rusty-fronted Barwing, Rufous-winged Fulvetta, Brown Parrotbill, Fire-breasted Flowerpecker, Fire-tailed Sunbird, Maroon-backed Accentor, Dark-breasted Rosefinch, Red-headed Bullfinch and Gold-naped Finch\", \"Kalimpong, Darjeeling District\", \"Bird safari, Jungle safari\", \"1986\", \"88 km²\", \"27.0824\", \"88.7007\"));\nsanctuary_informations.add(new Sanctuary_Information(\"Neora Valley National Park\", \"Clouded Leopard, Red Panda, Musk Deer, Leopard, Civet, Black bear, Sloth bear, Golden cat, Wild boar, Leopard cat, Goral, Serow, Barking deer, Sambar, Himalayan flying squirrel, King cobra, common cobra krait, green pit viper, blind snake, Butterflies, Rufous-throated Partridge, Satyr Tragopan, Crimson-breasted Woodpecker, Darjeeling Woodpecker, Bay Woodpecker, Golden-throated Barbet, Hodgson's Hawk Cuckoo, Lesser Cuckoo, Brown Wood Owl, Ashy Wood Pigeon, Mountain Imperial Pigeon, Jerdon's Baza, Black Eagle, Mountain Hawk Eagle, Dark-throated Thrush, Rufous-gorgeted Flycatcher, White-gorgeted Flycatcher, White-browed Bush Robin, White-tailed Robin, Yellow-browed Tit, Striated Bulbul, Chestnut-headed Tesia, Chestnut-crowned Warbler, Black-faced Warbler, Black-faced Laughingthrush, Chestnut-crowned Laughingthrush, Streak-breasted Scimitar Babbler, Scaly-breasted Wren Babbler, Pygmy Wren Babbler, Rufous-fronted Babbler, Black-headed Shrike Babbler, White-browed Shrike Babbler, Rusty-fronted Barwing, Rufous-winged Fulvetta, Brown Parrotbill, Fire-breasted Flowerpecker, Fire-tailed Sunbird, Maroon-backed Accentor, Dark-breasted Rosefinch, Red-headed Bullfinch and Gold-naped Finch\", \"Kalimpong, Darjeeling District\", \"Bird safari, Jungle safari\", \"1986\", \"88 km²\", \"27.0824\", \"88.7007\"));\nsanctuary_informations.add(new Sanctuary_Information(\"Neora Valley National Park\", \"Clouded Leopard, Red Panda, Musk Deer, Leopard, Civet, Black bear, Sloth bear, Golden cat, Wild boar, Leopard cat, Goral, Serow, Barking deer, Sambar, Himalayan flying squirrel, King cobra, common cobra krait, green pit viper, blind snake, Butterflies, Rufous-throated Partridge, Satyr Tragopan, Crimson-breasted Woodpecker, Darjeeling Woodpecker, Bay Woodpecker, Golden-throated Barbet, Hodgson's Hawk Cuckoo, Lesser Cuckoo, Brown Wood Owl, Ashy Wood Pigeon, Mountain Imperial Pigeon, Jerdon's Baza, Black Eagle, Mountain Hawk Eagle, Dark-throated Thrush, Rufous-gorgeted Flycatcher, White-gorgeted Flycatcher, White-browed Bush Robin, White-tailed Robin, Yellow-browed Tit, Striated Bulbul, Chestnut-headed Tesia, Chestnut-crowned Warbler, Black-faced Warbler, Black-faced Laughingthrush, Chestnut-crowned Laughingthrush, Streak-breasted Scimitar Babbler, Scaly-breasted Wren Babbler, Pygmy Wren Babbler, Rufous-fronted Babbler, Black-headed Shrike Babbler, White-browed Shrike Babbler, Rusty-fronted Barwing, Rufous-winged Fulvetta, Brown Parrotbill, Fire-breasted Flowerpecker, Fire-tailed Sunbird, Maroon-backed Accentor, Dark-breasted Rosefinch, Red-headed Bullfinch and Gold-naped Finch\", \"Kalimpong, Darjeeling District\", \"Bird safari, Jungle safari\", \"1986\", \"88 km²\", \"27.0824\", \"88.7007\"));\n","Satpura range",null, "1986", "82.94 km²","21.3250","75.1443"));
+        sanctuary_informations.add(new Sanctuary_Information("Aner Dam Wildlife Sanctuary" ,"Barking Deer, Chinkaras, Hares, Porcupines, Jungle Cats ","Satpura range",null, "1986", "82.94 km²","21.3250","75.1443"));
         sanctuary_informations.add(new Sanctuary_Information("Andhari Wildlife Sanctuary" ,null,"Chandrapur",null, "1986", "509.27 km²","20.2484","79.3607"));
         sanctuary_informations.add(new Sanctuary_Information("Amba Barwa Wildlife Sanctuary" ,null,"Buldhana",null, "1997", "12711 km²","21.2203","76.6470"));
         sanctuary_informations.add(new Sanctuary_Information("BR Hills Wildlife Sanctuary","Panthers, Gaurs, Chitals, Sambars, Bears, Elephants, Tigers, Leopards, Wild dogs, Jungle cat, Sloth bears, Civet, Mongoose, Giant squirrel, Porcupine, Common langur, Bonnet macaque, Wild pig, Spotted deer and Four-horned antelope, Malabar whistling thrush","Biligiriranga Hills, Kemmannagundi","Amateur fishing, River rafting, Trekking, Camping","1974","540 km²","11.993889","77.140556"));
@@ -754,7 +755,7 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
 //                    textView1.setVisibility(View.GONE);
 //                    TextView tw=findViewById(R.id.textView21);
 //                    tw.setVisibility(View.GONE);
-                    LinearLayout layout=findViewById(R.id.two);
+                    CardView layout=findViewById(R.id.two);
                     layout.setVisibility(View.GONE);
                 }
                 else
@@ -763,7 +764,7 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
                 }
                 if(elementLocation==null)
                 {
-                    LinearLayout layout=findViewById(R.id.three);
+                    CardView layout=findViewById(R.id.three);
                     layout.setVisibility(View.GONE);
                 }
                 else
@@ -781,7 +782,7 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
                 }
                 if(elementYear==null)
                 {
-                    LinearLayout layout=findViewById(R.id.five);
+                    CardView layout=findViewById(R.id.five);
                     layout.setVisibility(View.GONE);
                 }
                 else
@@ -790,7 +791,7 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
                 }
                 if(elementArea==null)
                 {
-                    LinearLayout layout=findViewById(R.id.six);
+                    CardView layout=findViewById(R.id.six);
                     layout.setVisibility(View.GONE);
                 }
                 else
@@ -799,13 +800,13 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
                 }
 
                 if(elementLatitude==null) {
-                    LinearLayout layout=findViewById(R.id.seven);
+                    CardView layout=findViewById(R.id.seven);
                     layout.setVisibility(View.GONE);
                 } else {
                     textView6.setText(elementLatitude);
                 }
                 if(elementLongitude==null) {
-                    LinearLayout layout=findViewById(R.id.eight);
+                    CardView layout=findViewById(R.id.eight);
                     layout.setVisibility(View.GONE);
                 } else {
                     textView7.setText(elementLongitude);
@@ -822,9 +823,9 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
             TextView tw1=findViewById(R.id.sanctuaryName);
             if(str!=null)
             tw1.setText(str);
-            LinearLayout two=findViewById(R.id.two);
+            CardView two=findViewById(R.id.two);
             two.setVisibility(View.GONE);
-            LinearLayout three=findViewById(R.id.three);
+            CardView three=findViewById(R.id.three);
             three.setVisibility(View.GONE);
             TextView tw4=findViewById(R.id.adventure);
             tw4.setText("Trekking, Jungle Safari, Photography");
@@ -835,9 +836,9 @@ public class Sanctuary_Information_Activity extends AppCompatActivity {
             int a1=getRandomNumber(1,60);
             TextView tw6=findViewById(R.id.area);
             tw6.setText(""+area+"."+""+a1+" km²");
-            LinearLayout seven=findViewById(R.id.seven);
+            CardView seven=findViewById(R.id.seven);
             seven.setVisibility(View.GONE);
-            LinearLayout eight=findViewById(R.id.eight);
+            CardView eight=findViewById(R.id.eight);
             eight.setVisibility(View.GONE);
             Button button=findViewById(R.id.button);
             button.setVisibility(View.GONE);

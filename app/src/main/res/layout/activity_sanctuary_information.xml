@@ -14,247 +14,317 @@
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
-            <LinearLayout
+            <androidx.cardview.widget.CardView
                 android:id="@+id/one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                android:elevation="5dp"
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Sanctuary Name"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/sanctuaryName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sanctuary Name"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/sanctuaryName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView21"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Wildlife"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/wildlife"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wildlife"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/wildlife"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/three"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView31"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Location"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/location"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Location"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/four"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView41"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Adventure"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/adventure"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Adventure"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/adventure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/five"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView51"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Year"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/year"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/six"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView61"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Area"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/area"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Area"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/area"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/seven"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView71"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Latitude"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/latitude"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Latitude"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
-            <LinearLayout
+                    <TextView
+                        android:id="@+id/latitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
                 android:id="@+id/eight"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="5dp"
-                android:orientation="vertical">
+                app:cardCornerRadius="5dp">
 
-                <TextView
-                    android:id="@+id/textView81"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Longitude"
-                    android:textSize="21sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
+                    android:layout_marginStart="5dp"
+                    android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/longitude"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:text="TextView"
-                    android:textSize="15sp"
-                    tools:layout_editor_absoluteX="136dp"
-                    tools:layout_editor_absoluteY="65dp" />
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Longitude"
+                        android:textSize="25sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
 
+                    <TextView
+                        android:id="@+id/longitude"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="136dp"
+                        tools:layout_editor_absoluteY="65dp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
     </ScrollView>
-
-
 
     <Button
         android:id="@+id/button"
@@ -266,7 +336,6 @@
         android:layout_marginBottom="15dp"
         android:onClick="hitMe"
         android:text="Map" />
-
 
 </RelativeLayout>
 
