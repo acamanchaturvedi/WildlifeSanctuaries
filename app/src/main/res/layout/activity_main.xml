@@ -64,7 +64,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="List all the states and allows to filter by State"
+                        android:text="List all the states and union territories"
                         android:textSize="13sp" />
 
                 </LinearLayout>
@@ -115,7 +115,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="13sp"
                         android:layout_marginTop="8dp"
-                        android:text="List all the sanctuaries and allows to filter by sanctuary name" />
+                        android:text="List all the sanctuaries across the country" />
 
                 </LinearLayout>
 

@@ -681,7 +681,7 @@ public class Sanctuary_Detail extends AppCompatActivity {
 
         sanctuaries.add(new Sanctuary("Painganga Wildlife Sanctuary","Umarkhed, Yavatmal, Maharashtra",R.drawable.p));
 
-        sanctuaries.add(new Sanctuary("Pakhui/ Pakke Wildlife Sanctuary","Arunachal Pradesh",R.drawable.p));
+        sanctuaries.add(new Sanctuary("Pakhui/Pakke Wildlife Sanctuary","Arunachal Pradesh",R.drawable.p));
 
         sanctuaries.add(new Sanctuary("Palamu Tiger Reserve","Latehar, Jharkhand",R.drawable.p));
 
